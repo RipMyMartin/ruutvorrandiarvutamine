@@ -175,7 +175,7 @@ def vaal():
     plt.grid(True)
     plt.show()
 
-'''def liblikas():
+def liblikas():
     x1 = np.arange(-9, -1.5, 0.5)
     y1 = (-1/8) * (x1 + 9) ** 2 + 8
     x2 = np.arange(1, 9.5, 0.5)
@@ -216,7 +216,6 @@ def vaal():
     plt.grid(True)
     plt.show()
 
-    '''
 
 root = Tk()
 root.geometry("1100x350")
