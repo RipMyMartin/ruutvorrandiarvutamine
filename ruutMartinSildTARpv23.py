@@ -319,13 +319,13 @@ for i, text in enumerate(["Liblikas"]):
 
 for i, text in enumerate(["Vihmavari"]):
     radio = Radiobutton(button_frame, text=text, command=vihmavari)
-    radio.grid(row=5, column=2, padx=10, pady=10)
+    radio.grid(row=5, column=3, padx=10, pady=10)
     radios.append(radio)
 
 
 for i, text in enumerate(["Prillid"]):
     radio = Radiobutton(button_frame, text=text, command=prillid)
-    radio.grid(row=5, column=2, padx=10, pady=10)
+    radio.grid(row=5, column=4, padx=10, pady=10)
     radios.append(radio)
 
 
